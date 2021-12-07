@@ -1,0 +1,385 @@
+*{
+  font-family: 'Amatic SC', cursive;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a.nav-links:hover{
+  text-decoration: underline  wavy #3b1100;
+}
+a.nav-links{
+font-size: 25px;
+color: #3b1100 ;
+font-weight: 900;
+transition: 5s;
+text-transform: uppercase;
+text-decoration: none;
+transition: .5s;
+}
+.hleb-logoBlock {
+    background-image: url('/image/Layer 1.png');
+    height: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.one-block p {
+    font-size: 37px;
+    margin: 0;
+    margin-bottom: -15px;
+}
+.one-block b {
+    font-size: 66px;
+    margin-top: -10px !important;
+}
+.linkBLock p {
+    font-size: 35px;
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+img.linkPicture {
+    height: 46px;
+    padding-right: 10px;
+}
+img.linkPicture:hover {
+    transform: rotate(0.1turn);
+}
+ .top{
+   padding-top: 40px;
+ }
+ .hlebBack {
+     background-image: url(/image/hleb2.png);
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 460px;
+     margin-left: 160px;
+     margin-right: -27px;
+     margin-top: -40px;
+ }
+
+.top {
+    position: absolute;
+}
+.lineHLeb img {
+    margin-top: 100px;
+    z-index: -1;
+    margin-left: 378px;
+    position: absolute;
+    display: none;
+}
+
+.UsUp-title {
+    margin-top: -36px;
+    margin-left: 57px;
+    font-size: 42px;
+}
+.blockUs {
+    padding: 0px 30px 0px 30px;
+    border-right: 5px solid #cd911f;
+    border-left: 5px solid #cd911f;
+    border-bottom: 5px solid #cd911f;
+    background: linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f);
+    background-size: 229px 5px, 42px 5px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top,left top;
+    border-radius: 15px;
+}
+li {
+    list-style: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.Us-bold {
+    font-size: 40px;
+}
+.hlebUs {
+    background-image: url('/image/Layer 7.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.blockTwo{
+  justify-content: space-between;
+}
+.hlebUs b {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: -4px;
+}
+.hlebUs p {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.row.retails{
+  justify-content: space-between;
+}
+.retail {
+    background-color: #370f00;
+    margin-top: 146px;
+    height: 465px;
+}
+.retail img {
+    margin-left: -306px;
+    height: 530px;
+    margin-top: -48px;
+}
+.textLineTwo {
+    overflow: hidden;
+    text-align: center;
+}
+.textLineTwo:before,
+.textLineTwo:after {
+    background-color: #cd911f;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.textLineTwo:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.textLineTwo:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.textLineTwo {
+    color: #cd911f;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 36px;
+}
+.retailText{
+  color: #cd911f;
+}
+.subtext {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.buttonMore{
+  background-color: #cd911f;
+}
+.buttonMore {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border: none;
+    border-radius: 80px;
+    width: 220px;
+    height: 55px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.buttonMore a{
+  justify-content: center;
+}
+img.menHleb {
+    margin-top: -90px;
+    margin-left: 60px;
+}
+.subtext-two {
+    font-size: 30px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.titleTextMan
+{
+  color: #412c1a;
+}
+.buttonMore a:hover{
+  color: #000;
+}
+
+.blockUsTwo {
+    margin-top: 120px;
+    color: #b57c1a;
+    padding: 0px 30px 0px 30px;
+    border-right: 5px solid #cd911f;
+    border-left: 5px solid #cd911f;
+    border-bottom: 5px solid #cd911f;
+    background: linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f), linear-gradient(#cd911f, #cd911f);
+    background-size: 112px 5px, 42px 5px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top,left top;
+    border-radius: 15px;
+    height: 198px;
+}
+.blockUsTwo img {
+    height: 90px;
+    position: absolute;
+    margin-left: 130px;
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+}
+.navFooter{
+  font-size: 24px;
+}
+.navFooter p{
+  margin: auto;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navFooter img{
+  margin-right: 10px;
+}
+.copirate {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form#contactForms {
+    margin-top: 130px;
+}
+.form-group label {
+    color: #fff;
+    width: 30%;
+    font-size: 28px;
+}
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    border: 3px solid #cd911f;
+    -moz-appearance: none;
+    border-radius: 12px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button#submit {
+    display: flex;
+    margin: auto;
+    background-color: #cd911f;
+    border: none;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+@media(max-width:1200px){
+  .hlebBack {
+    height: 450px;
+    margin-left: 60px;
+    margin-right: -20px;
+    margin-top: -40px;
+}
+img.menHleb {
+    margin-top: -90px;
+    margin-left: 49px;
+}
+.col-lg-4.blockUs.blockUsTwo li {
+    font-size: 24px;
+}
+.blockUsTwo {
+background-size: 52px 5px, 42px 5px;
+}
+.col-lg-4.blockUs.blockUsTwo img {
+    margin-top: 30px;
+}
+}
+@media(max-width:990px){
+  .retail img {
+      display: none;
+      margin-left: -306px;
+      height: 530px;
+      margin-top: -48px;
+  }
+  .hlebUs {
+    margin-top: 100px;
+}
+.hlebBack {
+    height: 380px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+nav.d-inline-flex.mt-2.mt-md-0 {
+    margin: auto;
+}
+.hlebBack {
+    height: 260px;
+    display: none;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: -260px;
+}
+.top {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+.UsUp-title {
+    margin-top: -36px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+li{
+  text-align: center;
+}
+.blockUs {
+    background-size: 42px 5px, 42px 5px;
+
+}
+img.menHleb {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    width: 100%;
+}
+ul {
+    padding: 0;
+}
+.contactForm-right.col-sm-5.col-md-12{
+  width: 100%
+}
+.retail.num2 {
+    background-color: #370f00;
+    margin-top: 146px;
+    height: 755px;
+}
+.blockUsTwo {
+    background-size: 62px 5px, 42px 5px;
+}
+a.nav-links {
+    font-size: 18px;
+}
+nav.d-inline-flex.mt-2.mt-md-0 {
+    margin: auto;
+    margin-top: 10px !important;
+}
+.d-flex.justify-content-between.mt-4 {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex.navFooter {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+}
